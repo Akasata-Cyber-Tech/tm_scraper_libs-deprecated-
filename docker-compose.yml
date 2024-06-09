@@ -1,58 +1,17 @@
 services:
+  
   tm-scraper:
-    image: tm-scraper
+    image: tm-scraper-image
     build:
       context: ./
       dockerfile: ./Dockerfile
     container_name: tm-scraper
-    volumes:
-      - ./storage/monitoring_data:/app/storage/monitoring_data
-      - ./storage/data_path:/app/storage/data_path
-      - ./storage/parsed_data_path:/app/storage/parsed_data_path
-      - ./storage/csv_data_path:/app/storage/csv_data_path
-    stdin_open: true
-    tty: true
-  tm-scraper-db:
-   image: postgres
-   container_name: tm-scraper-db
-   shm_size: 128mb
-   environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: TeFoS_S3CURE$$
-      POSTGRES_DB: tmdb
-   ports:
-      - "5432:5432"
-   build:
-      context: ./backend/services/postgres
-      dockerfile: ./Dockerfile
-   restart: always
-   volumes:
-      - ./backend/services/postgres:/app/backend/services/postgres
-  #  environment:
-  tm-scraper-api:
-    image: tm-scraper-api
-    build:
-      context: ./
-      dockerfile: ./api/v1/Dockerfile
-    container_name: tm-scraper-api
-  adminer:
-    image: adminer
-    restart: always
+    # volumes:
+    #   - ./services/libs/tm_scraper/storage/monitoring_data:/app/backend/assets/monitoring_data
+    #   - ./services/libs/tm_scraper/storage/data_path:/app/backend/assets/data_path
+    #   - ./services/libs/tm_scraper/storage/parsed_data_path:/app/backend/assets/parsed_data_path
+    #   - ./storage/csv_data_path:/app/backend/assets/csv_data_path
     ports:
-      - 8080:8080
-
-  psql:
-    image: psql
-    container_name: psql
-    build:
-      context: ./backend/services/postgres
-      dockerfile: ./psql.Dockerfile
-    depends_on:
-    - postgres
-    environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: TeFoS_S3CURE$$
-      POSTGRES_DB: tmdb
+      - "8959:8959"
     stdin_open: true
     tty: true
-    # command: ["psql","-h postgres"," -p 5432","-U tefos -d tmdb"]

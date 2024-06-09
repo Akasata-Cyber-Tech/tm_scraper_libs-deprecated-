@@ -1,0 +1,17 @@
+selenium
+requests
+datetime
+keyboard
+pyautogui
+customtkinter
+fastapi
+pyYAML
+uvicorn
+flask
+python-dotenv
+icecream
+jose
+python-jose
+
+sqlalchemy
+# psycopyg2

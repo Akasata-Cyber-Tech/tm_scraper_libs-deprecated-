@@ -1,6 +1,6 @@
 import os 
 BACKEND_PATH = os.path.dirname(os.path.realpath(__file__))
-STORAGE_PATH = os.path.join(BACKEND_PATH, 'storage/drivers')
+STORAGE_PATH = os.path.join(BACKEND_PATH, 'storage/')
 
 def print_backend_path():
     content = []
