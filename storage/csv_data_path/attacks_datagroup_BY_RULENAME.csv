@@ -1,19 +1,5 @@
 ruleName,totalLogs
-Command Injection Exploit Sensor - HTTP (Request) - Variant 2,129
-Web Server - Apache,84
-Unix - Syslog,71
-Possible Directory Traversal Exploit Attempted - URI Variable/URI Path - HTTP (Request),11
-Possible Directory Traversal Exploit Attempted SENSOR - HEADERS - HTTP (Request),10
-Possible SQL Inject RCE Exploit - HTTP (Request) - Variant 2,10
-Invalid Traversal,8
-Web Server - Apache - 2,6
-Wget Commandline Injection,4
-CVE-2017-9841 - PHPUnit Remote Code Execution Exploit - HTTP (Request),4
-GZ File requested from root directory - HTTP (Request),3
-CVE-2018-10562 - GPON Remote Code Execution - HTTP (Request),3
-NETGEAR DGN1000/DGN2200 Remote Code Execution - HTTP (Request),3
-HNAP1 Remote Code Execution Exploit - HTTP (Request),3
-Remote Code Execution - HTTP (Request) - Variant 2,3
-Application - Secure Shell Daemon (SSHD),3
-HNAP1 - RCE - HTTP (Request),3
-File with malware-related file name - HTTP (Request),2
+Anydesk RMM - DNS (Response) - Beta,2912
+DNS response of a queried malware Command and Control domain,88
+Possible CONFICKER DNS Response,6
+This host has responded to DNS queries.,1

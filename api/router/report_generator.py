@@ -86,7 +86,7 @@ async def generate_report_shift1():
     # Return the ZIP file as a response
     return FileResponse(
         path=zip_filename,
-        filename=zip_filename,
+        filename="reports_data.zip",
         media_type='application/zip'
     )
     

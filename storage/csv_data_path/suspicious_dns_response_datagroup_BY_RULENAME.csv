@@ -1,3 +1,5 @@
 ruleName,totalLogs
-Anydesk RMM - DNS (Response) - Beta,786
-DNS response of a queried malware Command and Control domain,74
+Anydesk RMM - DNS (Response) - Beta,2912
+DNS response of a queried malware Command and Control domain,88
+Possible CONFICKER DNS Response,6
+This host has responded to DNS queries.,1

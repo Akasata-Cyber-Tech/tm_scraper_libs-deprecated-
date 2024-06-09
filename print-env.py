@@ -1,11 +1,13 @@
 import os 
 BACKEND_PATH = os.path.dirname(os.path.realpath(__file__))
 STORAGE_PATH = os.path.join(BACKEND_PATH, 'storage/')
+ZIPFILE = os.path.join(STORAGE_PATH, 'downloads/reports_data.zip')
 
 def print_backend_path():
     content = []
     content.append(str(f'BASE_PATH={BACKEND_PATH}'))
     content.append(str(f'STORAGE_PATH={STORAGE_PATH}'))
+    content.append(str(f'ZIPFILE={ZIPFILE}'))
     print(BACKEND_PATH)
     print(STORAGE_PATH)
     with open('.env', 'w') as file:
