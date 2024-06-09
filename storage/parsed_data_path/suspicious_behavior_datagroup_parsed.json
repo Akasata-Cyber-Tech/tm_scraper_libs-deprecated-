@@ -1,0 +1,47 @@
+{
+    "ID": [
+        1
+    ],
+    "src": [
+        null
+    ],
+    "dst": [
+        "AZK27",
+        "P01-101227-PC2",
+        "iqbalshorf",
+        "LAPTOP-C9LOCHBE",
+        "DEA",
+        "ADELBARU",
+        "DESKTOP-OLGRK6K",
+        "FajarRohino",
+        "REDY-NOTEBOOK",
+        "DESKTOP-OT1UPEH",
+        "03TEM1912044PSM",
+        "02JMB2104082PP3",
+        "DESKTOP-4I6K8J3",
+        "YUNI-PBL-7993",
+        "105098NB1",
+        "PLTP23L4570052",
+        "ali",
+        "LAPTOP-FP47UDS7",
+        "KAFINA-R3"
+    ],
+    "ruleName": [
+        "BingWallpaperApp.exe",
+        "mediaget.exe",
+        "MSI.CentralServer.exe",
+        "MicrosoftEdgeUpdate.exe",
+        "psiphon3.exe",
+        "DeviceCensus.exe",
+        "avp.exe",
+        "VSHiveStub.exe",
+        "AnyDesk.exe",
+        "java.exe",
+        "WerFault.exe",
+        "AVGSvc.exe",
+        "UDClientService.exe"
+    ],
+    "requests": [
+        ""
+    ]
+}

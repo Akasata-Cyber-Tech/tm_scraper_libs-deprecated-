@@ -1,0 +1,24 @@
+[
+    {
+        "endpointHostName": "gcp-srvlppeproc01",
+        "shost": null,
+        "dhost": null,
+        "remarks": "type=ANOM_PROMISCUOUS msg=audit(1717418416.197:39877): dev=vethb249f3b prom=256 old_prom=0 auid=4294967295 uid=0 gid=0 ses=4294967295\ufffdAUID=\"unset\" UID=\"root\" GID=\"root\"",
+        "eventDataIpAddress": null,
+        "endpointIP": [
+            "10.174.3.3"
+        ],
+        "dataHash": "629b0bde1d5e967299889a3fe373ea2a89e76a357c39cf9de6e5c19514b0956f"
+    },
+    {
+        "endpointHostName": "gcp-srvlppeproc01",
+        "shost": null,
+        "dhost": null,
+        "remarks": "type=ANOM_PROMISCUOUS msg=audit(1717418407.711:39876): dev=vethbbce9bd prom=0 old_prom=256 auid=4294967295 uid=0 gid=0 ses=4294967295\ufffdAUID=\"unset\" UID=\"root\" GID=\"root\"",
+        "eventDataIpAddress": null,
+        "endpointIP": [
+            "10.174.3.3"
+        ],
+        "dataHash": "30cabde0ddb32c9fff1bfa11400dc37293e01bf1549f28b745e5d6a524945b6f"
+    }
+]

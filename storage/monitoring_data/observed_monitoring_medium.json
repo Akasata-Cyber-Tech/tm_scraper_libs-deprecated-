@@ -1,0 +1,123 @@
+[
+    {
+        "detection_name": "Suspicious Detection in Private Networks",
+        "severity_level": "medium",
+        "description": "Suspicious objects such as URL, domain, file was found within private networks",
+        "endpoint": "10.40.5.201",
+        "src_attack": [
+            "10.0.127.81"
+        ],
+        "shost": "10.0.127.81",
+        "dst_attack": [
+            "10.40.5.201"
+        ],
+        "dhost": "10.40.5.201",
+        "request": null,
+        "rulename": null,
+        "app": "DNS Response",
+        "botUrl": null,
+        "userAgent": null,
+        "pAttackPhase": "Command and Control Communication",
+        "remarks": "[\"Domain: ilo.brenz.pl\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "fe0958c0-f23e-431f-b67c-f93d24a0bf5c",
+        "dataHash": "b95c69ab26b1aa7fc5db8a4050a28c28b4be9f3e5da81f09f76e225557944971"
+    },
+    {
+        "detection_name": "Equated Exploit Attempt SMB (Response) - Outbound",
+        "severity_level": "medium",
+        "description": "Network activity involving SMB, which is associated with DoublePulsar, was detected.",
+        "endpoint": "10.0.127.220",
+        "src_attack": [
+            "10.0.127.220"
+        ],
+        "shost": "10.0.127.220",
+        "dst_attack": [
+            "10.3.12.53"
+        ],
+        "dhost": "10.3.12.53",
+        "request": null,
+        "rulename": null,
+        "app": "SMB",
+        "botUrl": null,
+        "userAgent": null,
+        "pAttackPhase": "Point of Entry",
+        "remarks": "[\"IP address: 10.0.127.220\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "d4d21043-be13-4be2-97a8-3772cfde5fa6",
+        "dataHash": "6445698ee2e360562416bf51eff482f033e353594fca863666b3211a17dfdb7b"
+    },
+    {
+        "detection_name": "Port Sweep",
+        "severity_level": "medium",
+        "description": "Network activity involving TCP, which is associated with port sweeping, was detected.",
+        "endpoint": "10.0.127.79",
+        "src_attack": [
+            "192.241.208.66"
+        ],
+        "shost": "apzg-0721-a-031.stretchoid.com",
+        "dst_attack": [
+            "10.0.127.79"
+        ],
+        "dhost": "10.0.127.79",
+        "request": null,
+        "rulename": null,
+        "app": "TCP",
+        "botUrl": null,
+        "userAgent": null,
+        "pAttackPhase": "Intelligence Gathering",
+        "remarks": "[\"IP address: 10.0.127.79\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "7508d9bf-ef3f-4108-b786-85978037f0a4",
+        "dataHash": "ce5a8de7c07c700a2cbfa29641380f374ad08528abdef2b736c330bd98c416ec"
+    },
+    {
+        "detection_name": "Compression of File or Folder via PowerShell",
+        "severity_level": "medium",
+        "description": "Compress-Archive was executed via PowerShell to compress files or folders",
+        "endpoint": "01KKP2108001NSM",
+        "src_attack": null,
+        "shost": null,
+        "dst_attack": null,
+        "dhost": null,
+        "request": null,
+        "rulename": null,
+        "app": null,
+        "botUrl": null,
+        "userAgent": null,
+        "pAttackPhase": null,
+        "remarks": null,
+        "objectCmd": null,
+        "detected_by": "751",
+        "uuid": "cd15a50a-c304-4316-a949-10dd147b8479",
+        "dataHash": "37ece00782b517d406281bf19bdea406c29d1cb386700b0e24afde7b27698195"
+    },
+    {
+        "detection_name": "Equated Exploit Attempt SMB (Response) - Outbound",
+        "severity_level": "medium",
+        "description": "Network activity involving SMB, which is associated with DoublePulsar, was detected.",
+        "endpoint": "10.0.127.220",
+        "src_attack": [
+            "10.0.127.220"
+        ],
+        "shost": "10.0.127.220",
+        "dst_attack": [
+            "10.1.56.2"
+        ],
+        "dhost": "10.1.56.2",
+        "request": null,
+        "rulename": null,
+        "app": "SMB",
+        "botUrl": null,
+        "userAgent": null,
+        "pAttackPhase": "Point of Entry",
+        "remarks": "[\"IP address: 10.0.127.220\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "ef644821-50ed-453e-8089-f19d0b6cfe3e",
+        "dataHash": "c15f64b98e3679275d646f2a8a73861ae3c083e820245f2847c2296a2edb5a44"
+    }
+]

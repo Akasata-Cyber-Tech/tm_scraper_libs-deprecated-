@@ -1,0 +1,9 @@
+{
+    "info": {
+        "code": "1010000",
+        "message": "execution succeeds"
+    },
+    "data": {
+        "detections": []
+    }
+}

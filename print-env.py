@@ -1,0 +1,106 @@
+import os 
+BACKEND_PATH = os.path.dirname(os.path.realpath(__file__))
+
+def print_backend_path():
+    content = []
+    content.append(str(f'BASE_PATH={BACKEND_PATH}'))
+    print(BACKEND_PATH)
+    with open('.env', 'w') as file:
+        for c in content:
+            file.write(f'{c}\n')
+def extend_env():
+    
+    content = []
+
+    content.append(str(f'BASE_PATH={BACKEND_PATH}'))
+    content.append(str(f'BASE_PATH_DEF={BASE_PATH_DEF}'))
+    content.append(str(f'DRIVER_PATH={DRIVER_PATH}'))
+    content.append(str(f'MODULES_PATH={MODULES_PATH}'))
+    content.append(str(f'DATA_PATH={DATA_PATH}'))
+    content.append(str(f'PARSED_DATA_PATH={PARSED_DATA_PATH}'))
+    content.append(str(f'CSV_DATA_PATH={CSV_DATA_PATH}'))
+    content.append(str(f'SUPABASE_DATA_PATH={SUPABASE_DATA_PATH}'))
+    content.append(str(f'MONITORING_DATA_PATH={MONITORING_DATA_PATH}'))
+    content.append(str(f'GECKO_DRIVER={GECKO_DRIVER}'))
+    content.append(str(f'CHROME_DRIVER={CHROME_DRIVER}'))
+    content.append(str(f'COOKIE_PATH={COOKIE_PATH}'))
+    content.append(str(f'COOKIE2_PATH={COOKIE2_PATH}'))
+    content.append(str(f'SUS_BEHAVIOR_DATA_PATH={SUS_BEHAVIOR_DATA_PATH}'))
+    content.append(str(f'SUS_DNS_RESPONSE_DATA_PATH={SUS_DNS_RESPONSE_DATA_PATH}'))
+    content.append(str(f'ATTACKS_DATA_PATH={ATTACKS_DATA_PATH}'))
+    content.append(str(f'MALWARE_DATA_PATH={MALWARE_DATA_PATH}'))
+    content.append(str(f'RDP_LOGON_DATA_PATH={RDP_LOGON_DATA_PATH}'))
+    content.append(str(f'SMB_LOGON_DATA_PATH={SMB_LOGON_DATA_PATH}'))
+    content.append(str(f'SSH_AUTH_DATA_PATH={SSH_AUTH_DATA_PATH}'))
+    content.append(str(f'CRITICAL_OBSERVED_DATA_PATH={CRITICAL_OBSERVED_DATA_PATH}'))
+    content.append(str(f'HIGH_OBSERVED_DATA_PATH={HIGH_OBSERVED_DATA_PATH}'))
+    content.append(str(f'MEDIUM_OBSERVED_DATA_PATH={MEDIUM_OBSERVED_DATA_PATH}'))
+    content.append(str(f'LOW_OBSERVED_DATA_PATH={LOW_OBSERVED_DATA_PATH}'))
+    content.append(str(f'INFO_OBSERVED_DATA_PATH={INFO_OBSERVED_DATA_PATH}'))
+    content.append(str(f'SUS_DNS_RESPONSE_DATAGROUP_PATH={SUS_DNS_RESPONSE_DATAGROUP_PATH}'))
+    content.append(str(f'ATTACKS_DATAGROUP_PATH={ATTACKS_DATAGROUP_PATH}'))
+    content.append(str(f'MALWARE_DATAGROUP_PATH={MALWARE_DATAGROUP_PATH}'))
+    content.append(str(f'SUS_DNS_RESPONSE_DATAGROUP_PARSED_PATH={SUS_DNS_RESPONSE_DATAGROUP_PARSED_PATH}'))
+    content.append(str(f'ATTACKS_DATAGROUP_PARSED_PATH={ATTACKS_DATAGROUP_PARSED_PATH}'))
+    content.append(str(f'MALWARE_DATAGROUP_PARSED_PATH={MALWARE_DATAGROUP_PARSED_PATH}'))
+    content.append(str(f'CRITICAL_OBSERVED_PARSED_PATH={CRITICAL_OBSERVED_PARSED_PATH}'))
+    content.append(str(f'HIGH_OBSERVED_PARSED_PATH={HIGH_OBSERVED_PARSED_PATH}'))
+    content.append(str(f'MEDIUM_OBSERVED_PARSED_PATH={MEDIUM_OBSERVED_PARSED_PATH}'))
+    content.append(str(f'LOW_OBSERVED_PARSED_PATH={LOW_OBSERVED_PARSED_PATH}'))
+    content.append(str(f'INFO_OBSERVED_PARSED_PATH={INFO_OBSERVED_PARSED_PATH}'))
+    content.append(str(f'SUPABASE_SUS_DNS_RESPONSE_DATAGROUP_PATH={SUPABASE_SUS_DNS_RESPONSE_DATAGROUP_PATH}'))
+    content.append(str(f'SUPABASE_ATTACKS_DATAGROUP_PATH={SUPABASE_ATTACKS_DATAGROUP_PATH}'))
+    content.append(str(f'SUPABASE_MALWARE_DATAGROUP_PATH={SUPABASE_MALWARE_DATAGROUP_PATH}'))
+    content.append(str(f'SUPABASE_CRITICAL_OBSERVED_DATA_PATH={SUPABASE_CRITICAL_OBSERVED_DATA_PATH}'))
+    content.append(str(f'SUPABASE_HIGH_OBSERVED_DATA_PATH={SUPABASE_HIGH_OBSERVED_DATA_PATH}'))
+    content.append(str(f'SUPABASE_MEDIUM_OBSERVED_DATA_PATH={SUPABASE_MEDIUM_OBSERVED_DATA_PATH}'))
+    content.append(str(f'SUPABASE_LOW_OBSERVED_DATA_PATH={SUPABASE_LOW_OBSERVED_DATA_PATH}'))
+    content.append(str(f'SUPABASE_INFO_OBSERVED_DATA_PATH={SUPABASE_INFO_OBSERVED_DATA_PATH}'))
+    content.append(str(f'MONITORING_SUS_DNS_RESPONSE_DATA_PATH={MONITORING_SUS_DNS_RESPONSE_DATA_PATH}'))
+    content.append(str(f'MONITORING_ATTACKS_DATA_PATH={MONITORING_ATTACKS_DATA_PATH}'))
+    content.append(str(f'MONITORING_MALWARE_DATA_PATH={MONITORING_MALWARE_DATA_PATH}'))
+    content.append(str(f'MONITORING_RDP_DDI_DATA_PATH={MONITORING_RDP_DDI_DATA_PATH}'))
+    content.append(str(f'MONITORING_RDP_LOGON_DATA_PATH={MONITORING_RDP_LOGON_DATA_PATH}'))
+    content.append(str(f'MONITORING_SMB_LOGON_DATA_PATH={MONITORING_SMB_LOGON_DATA_PATH}'))
+    content.append(str(f'MONITORING_AUTH_LOGIN_SSH_DATA_PATH={MONITORING_AUTH_LOGIN_SSH_DATA_PATH}'))
+    content.append(str(f'MONITORING_OBSERVED_DATA_PATH={MONITORING_OBSERVED_DATA_PATH}'))
+    content.append(str(f'CRITICAL_MONITORING_OBSERVED_DATA_PATH={CRITICAL_MONITORING_OBSERVED_DATA_PATH}'))
+    content.append(str(f'HIGH_MONITORING_OBSERVED_DATA_PATH={HIGH_MONITORING_OBSERVED_DATA_PATH}'))
+    content.append(str(f'MEDIUM_MONITORING_OBSERVED_DATA_PATH={MEDIUM_MONITORING_OBSERVED_DATA_PATH}'))
+    content.append(str(f'LOW_MONITORING_OBSERVED_DATA_PATH={LOW_MONITORING_OBSERVED_DATA_PATH}'))
+    content.append(str(f'INFO_MONITORING_OBSERVED_DATA_PATH={INFO_MONITORING_OBSERVED_DATA_PATH}'))
+    content.append(str(f'CSV_SUS_DNS_RESPONSE_DATAGROUP={CSV_SUS_DNS_RESPONSE_DATAGROUP}'))
+    content.append(str(f'CSV_ATTACKS_DATAGROUP={CSV_ATTACKS_DATAGROUP}'))
+    content.append(str(f'CSV_MALWARE_DATAGROUP={CSV_MALWARE_DATAGROUP}'))
+    content.append(str(f'CSV_SUS_DNS_RESPONSE_DATAGROUP_BY_SOURCE={CSV_SUS_DNS_RESPONSE_DATAGROUP_BY_SOURCE}'))
+    content.append(str(f'CSV_ATTACKS_DATAGROUP_BY_SOURCE={CSV_ATTACKS_DATAGROUP_BY_SOURCE}'))
+    content.append(str(f'CSV_MALWARE_DATAGROUP_BY_SOURCE={CSV_MALWARE_DATAGROUP_BY_SOURCE}'))
+    content.append(str(f'CSV_SUS_DNS_RESPONSE_DATAGROUP_BY_RULENAME={CSV_SUS_DNS_RESPONSE_DATAGROUP_BY_RULENAME}'))
+    content.append(str(f'CSV_ATTACKS_DATAGROUP_BY_RULENAME={CSV_ATTACKS_DATAGROUP_BY_RULENAME}'))
+    content.append(str(f'CSV_MALWARE_DATAGROUP_BY_RULENAME={CSV_MALWARE_DATAGROUP_BY_RULENAME}'))
+    content.append(str(f'CSV_SUS_DNS_RESPONSE_DATAGROUP_BY_INDICATOR={CSV_SUS_DNS_RESPONSE_DATAGROUP_BY_INDICATOR}'))
+    content.append(str(f'CSV_ATTACKS_DATAGROUP_BY_INDICATOR={CSV_ATTACKS_DATAGROUP_BY_INDICATOR}'))
+    content.append(str(f'CSV_MALWARE_DATAGROUP_BY_INDICATOR={CSV_MALWARE_DATAGROUP_BY_INDICATOR}'))
+    content.append(str(f'CSV_SUS_DNS_RESPONSE_DATAGROUP_BY_DESTINATION={CSV_SUS_DNS_RESPONSE_DATAGROUP_BY_DESTINATION}'))
+    content.append(str(f'CSV_ATTACKS_DATAGROUP_BY_DESTINATION={CSV_ATTACKS_DATAGROUP_BY_DESTINATION}'))
+    content.append(str(f'CSV_MALWARE_DATAGROUP_BY_DESTINATION={CSV_MALWARE_DATAGROUP_BY_DESTINATION}'))
+    # print(str(content))
+    with open('.env', 'w') as file:
+        for c in content:
+            file.write(f'{c}\n')
+try:
+    print_backend_path()
+    try:
+        from modules.pathData import *
+        extend_env()
+        # print('a')
+    except Exception as err:
+        print(err)
+
+except Exception as err:
+    print(err)
+
+
+
+
+
