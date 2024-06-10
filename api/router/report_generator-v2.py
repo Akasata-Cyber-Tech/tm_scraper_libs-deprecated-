@@ -55,7 +55,7 @@ file_paths = [
     CSV_MALWARE_DATAGROUP_BY_INDICATOR,
 ]
 
-@router.get("/generate/report-shift1")
+@router.get("/generate/report-shift1-batch")
 async def generate_report_shift1():
     filepath = file_paths
     loops = 0
@@ -98,3 +98,62 @@ async def generate_report_shift1():
         filename="reports_data.zip",
         media_type='application/zip'
     )
+    
+@router.get("/generate/report-shift2", status_code=200)
+async def generate_report_shift2():
+    with open(os.getenv("ATTACKS_DATAGROUP_PARSED_PATH"), 'r') as data:
+        datas = json.load(data)
+        return datas@router.get("/generate/report-shift1")
+async def generate_report_shift1():
+    if os.path.exists(CSV_ATTACKS_DATAGROUP_BY_SOURCE):
+        return FileResponse(
+            path=CSV_ATTACKS_DATAGROUP_BY_SOURCE,
+            filename="downloaded_file.csv",
+            media_type='application/csv'
+        )
+    else:
+        raise HTTPException(status_code=404, detail="File not found")
+    
+@router.get("/generate/report-shift2", status_code=200)
+async def generate_report_shift2():
+    with open(os.getenv("ATTACKS_DATAGROUP_PARSED_PATH"), 'r') as data:
+        datas = json.load(data)
+        return datas
+
+@router.get("/generate/report-shift1")
+async def generate_report_shift1():
+    if os.path.exists(pdf_file_path):
+        return FileResponse(
+            path=pdf_file_path,
+            filename="downloaded_file.pdf",
+            media_type='application/pdf'
+        )
+    else:
+        raise HTTPException(status_code=404, detail="File not found")
+    
+@router.get("/generate/report-shift2", status_code=200)
+async def generate_report_shift2():
+    with open(os.getenv("ATTACKS_DATAGROUP_PARSED_PATH"), 'r') as data:
+        datas = json.load(data)
+        return datas
+    
+@router.get("/generate/report-shift3")
+async def generate_report_shift3():
+    with open(os.getenv("SUS_BEHAVIOR_DATAGROUP_PARSED_PATH"), 'r') as data:
+        datas = json.load(data)
+        return datas
+
+@router.get("/generate/report-per2h", include_in_schema=False)
+async def generate_report_per2h():
+    print("On Development!")
+
+@router.get("/download-pdf")
+async def download_pdf():
+    if os.path.exists(pdf_file_path):
+        return FileResponse(
+            path=pdf_file_path,
+            filename="downloaded_file.pdf",
+            media_type='application/pdf'
+        )
+    else:
+        raise HTTPException(status_code=404, detail="File not found")

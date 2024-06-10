@@ -59,12 +59,6 @@ def decode_access_token(token: str):
             detail="Invalid token",
             headers={"WWW-Authenticate": "Bearer"},
         )
-    
-    
-@router.post("/login/")
-async def authLogin(login: LoginForm):
-    return {"username": login.username, "password": login.password, "token":get_session.login(username=login.username,password=login.password)}
-
 
 # Login route to generate JWT token
 @router.post("/token", response_model=Token)

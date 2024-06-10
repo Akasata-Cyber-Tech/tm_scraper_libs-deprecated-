@@ -16,7 +16,7 @@ app = FastAPI()
 
 app.include_router(auth.router,tags=["Auth"])
 app.include_router(reportAPI.router,tags=["getData"])
-app.include_router(postResport.router,tags=["postData"])
+# app.include_router(postResport.router,tags=["postData"])
 app.include_router(generateResport.router,tags=["generateReport"])
 
 @app.get("/")
